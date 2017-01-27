@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien\gear">
+      <UniqueIdentifier>{c1f0fb6f-9d7b-4979-82ad-3e75a651d976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gear\modules">
+      <UniqueIdentifier>{0c61d4ac-8cb1-480b-9c3b-f85b5baf66c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\gear">
+      <UniqueIdentifier>{4926a75f-ebc6-41cc-9165-d0a50c3774bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\gear\modules">
+      <UniqueIdentifier>{a33220be-1d68-42ba-a9b4-a69ef0ea17a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\critter">
+      <UniqueIdentifier>{e8d94489-6c82-49eb-93f6-8d0186e31652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\critter">
+      <UniqueIdentifier>{c3369719-0a35-44c6-b62a-bc9cfa7b028e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\tools">
+      <UniqueIdentifier>{20b3a514-445b-4877-8c4f-863905395a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\tools">
+      <UniqueIdentifier>{9dd300a1-47e9-4d33-8b88-bdef73be12da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gear\damageStuff">
+      <UniqueIdentifier>{5323c66f-07a9-4ca8-90a6-79605f347ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\gear\damageStuff">
+      <UniqueIdentifier>{32dd5aba-10e2-48c2-8d88-602a9bc855d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\gui">
+      <UniqueIdentifier>{bfd4b91e-5667-4cbb-b7b7-163f60ba784b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\gui">
+      <UniqueIdentifier>{62d20300-638e-4b8c-ad86-9b2d96dab965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\game">
+      <UniqueIdentifier>{03db0f01-f49a-4f84-9eea-7461dcf0091b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\game">
+      <UniqueIdentifier>{fcecf231-5a64-4863-be60-b6a8cb26513c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ShootingRange.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Gear.cpp">
+      <Filter>Quelldateien\gear\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Protection.cpp">
+      <Filter>Quelldateien\gear\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapon.cpp">
+      <Filter>Quelldateien\gear\modules</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageType.cpp">
+      <Filter>Quelldateien\gear\damageStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Acid.cpp">
+      <Filter>Quelldateien\gear\damageStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Energy.cpp">
+      <Filter>Quelldateien\gear\damageStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Physical.cpp">
+      <Filter>Quelldateien\gear\damageStuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Pistol.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Shotgun.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Blaster.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserRifle.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Spit.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="ClawFang.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="Critter.cpp">
+      <Filter>Quelldateien\critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Alien.cpp">
+      <Filter>Quelldateien\critter</Filter>
+    </ClCompile>
+    <ClCompile Include="ChainedList.cpp">
+      <Filter>Quelldateien\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceMarine.cpp">
+      <Filter>Quelldateien\critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Shield.cpp">
+      <Filter>Quelldateien\gear</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Quelldateien\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Quelldateien\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingTarget.cpp">
+      <Filter>Quelldateien\critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="LastStand.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Quelldateien\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Quelldateien\game</Filter>
+    </ClCompile>
+    <ClCompile Include="StoryMode.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tools.h">
+      <Filter>Headerdateien\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Headerdateien\gear\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Gear.h">
+      <Filter>Headerdateien\gear\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Protection.h">
+      <Filter>Headerdateien\gear\modules</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageType.h">
+      <Filter>Headerdateien\gear\damageStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Acid.h">
+      <Filter>Headerdateien\gear\damageStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Energy.h">
+      <Filter>Headerdateien\gear\damageStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Physical.h">
+      <Filter>Headerdateien\gear\damageStuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Pistol.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Shotgun.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Blaster.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserRifle.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Spit.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="ClawFang.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="Critter.h">
+      <Filter>Headerdateien\critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Alien.h">
+      <Filter>Headerdateien\critter</Filter>
+    </ClInclude>
+    <ClInclude Include="ChainedList.h">
+      <Filter>Headerdateien\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceMarine.h">
+      <Filter>Headerdateien\critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>Headerdateien\gear</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Headerdateien\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Headerdateien\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainingTarget.h">
+      <Filter>Headerdateien\critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Missions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Headerdateien\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceMarineSurvivor.rc">
+      <Filter>Ressourcendateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

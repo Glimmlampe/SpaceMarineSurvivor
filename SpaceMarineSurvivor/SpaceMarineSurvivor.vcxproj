@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Acid.cpp" />
+    <ClCompile Include="Alien.cpp" />
+    <ClCompile Include="LastStand.cpp" />
+    <ClCompile Include="Blaster.cpp" />
+    <ClCompile Include="ChainedList.cpp" />
+    <ClCompile Include="ClawFang.cpp" />
+    <ClCompile Include="Critter.cpp" />
+    <ClCompile Include="DamageType.cpp" />
+    <ClCompile Include="Energy.cpp" />
+    <ClCompile Include="Gear.cpp" />
+    <ClCompile Include="GUI.cpp" />
+    <ClCompile Include="LaserRifle.cpp" />
+    <ClCompile Include="Level.cpp" />
+    <ClCompile Include="Physical.cpp" />
+    <ClCompile Include="Pistol.cpp" />
+    <ClCompile Include="Point.cpp" />
+    <ClCompile Include="Protection.cpp" />
+    <ClCompile Include="Room.cpp" />
+    <ClCompile Include="Shield.cpp" />
+    <ClCompile Include="ShootingRange.cpp" />
+    <ClCompile Include="Shotgun.cpp" />
+    <ClCompile Include="SpaceMarine.cpp" />
+    <ClCompile Include="Spit.cpp" />
+    <ClCompile Include="StoryMode.cpp" />
+    <ClCompile Include="Sword.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Tools.cpp" />
+    <ClCompile Include="TrainingTarget.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Acid.h" />
+    <ClInclude Include="Alien.h" />
+    <ClInclude Include="Blaster.h" />
+    <ClInclude Include="ChainedList.h" />
+    <ClInclude Include="ClawFang.h" />
+    <ClInclude Include="Critter.h" />
+    <ClInclude Include="DamageType.h" />
+    <ClInclude Include="Energy.h" />
+    <ClInclude Include="Gear.h" />
+    <ClInclude Include="GUI.h" />
+    <ClInclude Include="LaserRifle.h" />
+    <ClInclude Include="Missions.h" />
+    <ClInclude Include="Physical.h" />
+    <ClInclude Include="Pistol.h" />
+    <ClInclude Include="Point.h" />
+    <ClInclude Include="Protection.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="Shield.h" />
+    <ClInclude Include="Shotgun.h" />
+    <ClInclude Include="SpaceMarine.h" />
+    <ClInclude Include="Spit.h" />
+    <ClInclude Include="Sword.h" />
+    <ClInclude Include="Tools.h" />
+    <ClInclude Include="TrainingTarget.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SpaceMarineSurvivor.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7B80AAB0-39DB-4061-9EEA-9BEFE16CABE6}</ProjectGuid>
+    <RootNamespace>SpaceMarineSurvivor</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
